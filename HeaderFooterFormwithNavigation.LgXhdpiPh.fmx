@@ -1,0 +1,78 @@
+inherited HeaderFooterwithNavigation_LgXhdpiPh: THeaderFooterwithNavigation_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  OnKeyUp = FormKeyUp
+  DesignerMasterStyle = 0
+  inherited TopToolBar: TToolBar
+    Size.Width = 450.000000000000000000
+    inherited ToolBarLabel: TLabel
+      Size.Width = 450.000000000000000000
+    end
+    inherited btnNext: TSpeedButton
+      Position.X = 402.000000000000000000
+    end
+  end
+  inherited TabControl1: TTabControl
+    Size.Width = 450.000000000000000000
+    Size.Height = 599.000000000000000000
+    Sizes = (
+      450s
+      599s
+      450s
+      599s)
+    inherited TabItem1: TTabItem
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      inherited Panel1: TPanel [0]
+        Position.Y = 419.000000000000000000
+        Size.Width = 450.000000000000000000
+      end
+      inherited enm1: TImage [1]
+        MultiResBitmap.Height = 150
+        MultiResBitmap.Width = 150
+      end
+      inherited enm2: TImage [2]
+        MultiResBitmap.Height = 150
+        MultiResBitmap.Width = 150
+        MultiResBitmap.LoadSize = 2
+        BitmapMargins.Left = 5.000000000000000000
+        BitmapMargins.Bottom = 5.000000000000000000
+      end
+      inherited enm3: TImage [3]
+        MultiResBitmap.Height = 150
+        MultiResBitmap.Width = 150
+        Anchors = [akTop, akRight]
+        Position.X = 362.000000000000000000
+        Size.Height = 419.000000000000000000
+      end
+      inherited ImageViewer1: TImageViewer [4]
+        Viewport.Width = 50.000000000000000000
+        Viewport.Height = 50.000000000000000000
+      end
+    end
+    inherited TabItem2: TTabItem
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      inherited Button1: TButton [0]
+      end
+      inherited Label1: TLabel [1]
+      end
+      inherited Label2: TLabel [2]
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+      inherited ImageViewer2: TImageViewer [3]
+        Size.Width = 450.000000000000000000
+        Size.Height = 599.000000000000000000
+        Viewport.Width = 50.000000000000000000
+        Viewport.Height = 50.000000000000000000
+      end
+    end
+  end
+  inherited BottomToolBar: TToolBar
+    Position.Y = 647.000000000000000000
+    Size.Width = 450.000000000000000000
+    inherited Label3: TLabel
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+  end
+end
